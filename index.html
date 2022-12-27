@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Animal Controlled Sound Recognition</title>
+</head>
+<body>
+    <div class="col-xs-12 header_div text-center">
+        <h2>Animal Sound Recognition</h2>
+    </div>
+    <div class="main_div">
+        <center>
+        <button id="button_start" onclick="start()" class="btn btn-info">Start</button>
+        <br><br>
+        <p>I Can Hear: <span id="sound_result"></span></p>
+        <br>
+        <p>Accuracy: <span id="sound_accuracy"></span></p>
+        <br><br><br>
+        <img src="listen.gif" id="img_result_gif" width=300 height=300>
+        <br>
+    </center>
+    </div>
+    <div class="copy_right_footer">
+        Designed By - Rishi
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

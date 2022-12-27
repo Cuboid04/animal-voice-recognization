@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(orange,yellow,red);
+    background-size:cover;
+}
+#img_result_gif{
+    width:150px;
+    height:150px;
+    border:1px solid black;
+    border-radius:20px;
+}
